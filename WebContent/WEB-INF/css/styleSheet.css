@@ -1,0 +1,60 @@
+.main {
+	top: 4.5em;
+	background:gray;
+}
+
+.query {
+	width: 400px;
+	height:25px;
+	text-align: left;
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+
+.search {
+	width: 100px;
+	color:blue;
+}
+
+.local {
+	position: fixed;
+	width: 31%;
+	height: 90%;
+	padding: 0px 10px;
+	border: 1px solid black;
+	overflow-y: scroll;
+	text-align:center;
+	/*text-decoration:underline;*/
+	}
+
+.google {
+	position: fixed;
+	margin-left: 33%;
+	width: 31%;
+	height: 90%;
+	padding: 0px 10px;
+	border: 1px solid black;
+	overflow-y: scroll;
+	color:Blue;
+	text-align:center;
+	/*text-decoration:underline;*/
+}
+
+.bing {
+	position: fixed;
+	margin-left: 66%;
+	width: 31%;
+	height: 90%;
+	padding: 0px 10px;
+	border: 1px solid black; 
+	overflow-y: scroll;
+	color:orange;
+	text-align:center;
+	/*text-decoration:underline;*/
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
